@@ -1,6 +1,6 @@
 {
   "name": "hexo-stripepay-deployer-heroku",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Heroku deployer plugin of Hexo with added Stripe payment processing.",
   "main": "index",
   "scripts": {
