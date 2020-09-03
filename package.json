@@ -1,7 +1,7 @@
 {
-  "name": "hexo-deployer-heroku",
+  "name": "hexo-stripepay-deployer-heroku",
   "version": "0.1.2",
-  "description": "Heroku deployer plugin of Hexo.",
+  "description": "Heroku deployer plugin of Hexo with added Stripe payment processing.",
   "main": "index",
   "scripts": {
     "eslint": "eslint .",
@@ -17,17 +17,18 @@
     "lib/",
     "assets/"
   ],
-  "repository": "hexojs/hexo-deployer-heroku",
-  "homepage": "https://hexo.io/",
+  "repository": "hexojs/hexo-stripepay-deployer-heroku",
+  "homepage": "https://github.com/violinmoksha/hexo-stripepay-deployer-heroku",
   "keywords": [
     "hexo",
     "heroku",
     "deploy",
     "deployer"
   ],
-  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw)",
+  "author": "Tommy Chen <tommy351@gmail.com> (http://zespia.tw) and Paul Yeager <humbl3@protonmail.com> (https://paulyeager.net)",
   "maintainers": [
-    "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)"
+    "Abner Chou <hi@abnerchou.me> (http://abnerchou.me)",
+    "Paul Yeager <humbl3@protonmail.com> (https://paulyeager.net)"
   ],
   "license": "MIT",
   "devDependencies": {
