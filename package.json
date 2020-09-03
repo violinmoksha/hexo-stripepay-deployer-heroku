@@ -17,7 +17,7 @@
     "lib/",
     "assets/"
   ],
-  "repository": "hexojs/hexo-stripepay-deployer-heroku",
+  "repository": "violinmoksha/hexo-stripepay-deployer-heroku",
   "homepage": "https://github.com/violinmoksha/hexo-stripepay-deployer-heroku",
   "keywords": [
     "hexo",
