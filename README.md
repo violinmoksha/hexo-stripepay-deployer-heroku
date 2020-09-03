@@ -40,7 +40,7 @@ $ rm -rf .deploy_heroku
 
 ## Stripe payment integration
 
-pay.php is added in .deploy_heroku target for credit card processing in the heroku nginx PHP container. Also, a simple custom nginx.conf with heroku Procfile mod is added so as to redirect all site traffic to SSL/HTTPS. This is configured to work with Heroku ACM (Automatic Certificate Management). Simply substitute heroku-stripepay-deployer-heroku for the original deployer, so as to enable your hexo -powered site with eCommerce payment processing via Stripe!
+pay.php is added in .deploy_heroku target for credit card processing in the heroku nginx PHP container in which hexo-generated static html/css/js assets reside. Also, a simple custom nginx.conf with heroku Procfile mod is added so as to redirect all site traffic to SSL/HTTPS. This is configured to work with Heroku ACM (Automatic Certificate Management). Simply substitute heroku-stripepay-deployer-heroku for the original hexo-deployer-heroku Hexo Plugin, and point a Stripe Checkout form action in your Hexo content to /pay.php/ so as to enable your hexo -powered site with eCommerce payment processing via Stripe!
 
 ## License
 
