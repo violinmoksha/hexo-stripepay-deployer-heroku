@@ -1,4 +1,6 @@
-# hexo-stripepay-deployer-heroku modified Fork of hexo-deployer-heroku Upstream
+# hexo-stripepay-deployer-heroku
+
+(modified Fork of hexo-deployer-heroku Upstream)
 
 [![Build Status](https://travis-ci.org/hexojs/hexo-deployer-heroku.svg?branch=master)](https://travis-ci.org/hexojs/hexo-deployer-heroku)
 [![NPM version](https://badge.fury.io/js/hexo-deployer-heroku.svg)](https://www.npmjs.com/package/hexo-deployer-heroku)
@@ -38,7 +40,7 @@ $ rm -rf .deploy_heroku
 
 ## Stripe payment integration
 
-pay.php is added in .deploy_heroku target for credit card processing in the heroku nginx PHP container. Also, a simple custom nginx.conf with heroku Procfile mod is added so as to redirect all site traffic to SSl/HTTPS. This is configured to work with Heroku ACM (Automatic Certificate Management). Simply substitute heroku-stripepay-deployer-heroku for the original deployer, so as to enable your hexo -powered site with eCommerce payment processing via Stripe!
+pay.php is added in .deploy_heroku target for credit card processing in the heroku nginx PHP container. Also, a simple custom nginx.conf with heroku Procfile mod is added so as to redirect all site traffic to SSL/HTTPS. This is configured to work with Heroku ACM (Automatic Certificate Management). Simply substitute heroku-stripepay-deployer-heroku for the original deployer, so as to enable your hexo -powered site with eCommerce payment processing via Stripe!
 
 ## License
 
